@@ -17,7 +17,7 @@ version is 4.3.17.
 
   2. Clone the repository:
 
-        git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+        git clone --recursive https://github.com/jweaver/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
   3. Create a new Zsh configuration by copying the Zsh configuration files
      provided:
@@ -66,6 +66,12 @@ accompanying README files to learn of what is available.
      window or tab.
 
      ![sorin theme][2]
+
+### Additional Modifications
+
+Additional modifications have been made from the original zprezto repo.  These
+include making screen (gnu screen) default and visual changes to the default
+theme.
 
 Customization
 -------------
